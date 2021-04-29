@@ -1,0 +1,10 @@
+# make data base
+python3 manage.py migrate
+
+# create new application
+python3 manage.py startapp <app name>
+
+# start your site
+python3 manage.py runserver <port number> # by default port number is 8000
+
+python3 manage.py createsuperuser
